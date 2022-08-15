@@ -1,0 +1,14 @@
+<div class="p-2 m-2">
+<h1>Stupid Coaching</h1>
+</div>
+<div class="border-start border-5 p-2 m-2">
+<%= params["answer"] %>
+<p>-You</p>
+</div>
+<div class="bg-warning text-dark bg-opacity-10 border-start border-5 p-2 m-2">
+<%= @answer %>
+<p>-Your coach</p>
+</div>
+<div class="p-2 m-2">
+<%= link_to "New question", ask_path %>
+</div>
